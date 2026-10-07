@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f5f7fa;
+    color: #333333;
+    margin: 0;
+}
+
+header {
+    background-color: #2f5d62;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #5e8b7e;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #dfeeea;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #2f5d62;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#tentang img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+ul {
+    background-color: #edf5f2;
+    padding: 15px 15px 15px 40px;
+    border-radius: 5px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #5e8b7e;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 98%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #2f5d62;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: #417b80;
+}
+
+footer {
+    background-color: #2f5d62;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    #tentang img {
+        width: 100%;
+        height: auto;
+    }
+
+    main {
+        width: 95%;
+    }
+}
